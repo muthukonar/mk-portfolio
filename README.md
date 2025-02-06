@@ -30,7 +30,7 @@
 ## Usage
 execute npm run start from terminal. Once application is started click on the url to view my portfolio. The portfolio site contains details about me, my projects created in bootcamp and contact method on how to reach me for any questions and resume with a PDF download link
 
-Deployed link : - To be updated once deployed.
+Deployed link : - https://bright-nougat-4370bf.netlify.app/ 
 
 GitHub link :- https://github.com/muthukonar/mk-portfolio
 
