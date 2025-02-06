@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [errors, setErrors] = useState({});
@@ -12,7 +13,7 @@ const Contact = () => {
     const newErrors = {};
     if (!formData.name) newErrors.name = 'Name is required';
     if (!formData.email) newErrors.email = 'Email is required';
-    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Email is invalid';
+    else if (!/\S+@\S+/.test(formData.email)) newErrors.email = 'Email is invalid';
     if (!formData.message) newErrors.message = 'Message is required';
     setErrors(newErrors);
   };
