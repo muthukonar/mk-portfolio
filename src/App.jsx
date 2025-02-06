@@ -10,10 +10,14 @@ import Footer from './components/Footer';
 function App() {
    return (
     <>
+    <div className="d-flex flex-column min-vh-100">
+    <Header></Header>
       <Nav />
-      <main className="mx-3">
+      <main className="flex-grow-1 mx-3">
         <Outlet />
       </main>
+      <Footer> </Footer>
+      </div>
     </>
   );
 }
