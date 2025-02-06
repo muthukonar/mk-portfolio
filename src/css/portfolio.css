@@ -22,4 +22,29 @@
     display: inline-block;
     margin-top: 10px;
   }
+
+  .project1-card img {
+    max-height: 80px;
+    object-fit: cover;
+    width: 10%;
+    border-radius: 4px;
+  }
   
+  .project1-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project1-card a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .bg-custom-blue {
+    background-color: #007bff; /* You can change this color */
+  }

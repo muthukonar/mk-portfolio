@@ -13,7 +13,7 @@ function App() {
     <div className="d-flex flex-column min-vh-100">
     <Header></Header>
       {/* <Nav /> */}
-      <main className="flex-grow-1 mx-3">
+      <main className="flex-grow-1 mx bg-secondary text-black py-3">
         <Outlet />
       </main>
       <Footer> </Footer>

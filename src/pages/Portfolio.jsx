@@ -43,18 +43,18 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio" className="container my-5">
-      <h2 className="text-center mb-4">Portfolio</h2>
+      <h2 className="text-left mb-4 bold-underline">Portfolio</h2>
       <div className="row">
         {projects.map((project, index) => (
           <div key={index} className="col-12 col-md-6 mb-4">
             <div className="project-card">
               <img src={project.image} alt={project.title} className="img-fluid mb-3" />
               <h3>{project.title}</h3>
-              <a href={project.deployedLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">
+              <a href={project.deployedLink} target="_blank" rel="noopener noreferrer" className="btn btn-info me-3">
                 App Screenshot/Video
               </a>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                GitHub link
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-link me-3">
+                GitHub Project link
               </a>
             </div>
           </div>
