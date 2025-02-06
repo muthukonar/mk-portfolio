@@ -4,37 +4,37 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Weather Dashboard',
-      image: './src/pages/weather.jpg',
+      image: './src/assets/pics/weather.jpg',
       deployedLink: 'https://weatherdashboard-1chl.onrender.com',
       githubLink: 'https://github.com/muthukonar/WeatherDashboard',
     },
     {
       title: 'Vehicle Builder',
-      image: './src/pages/vehicle.jpg',
+      image: './src/assets/pics/vehicle.jpg',
       deployedLink: 'https://drive.google.com/file/d/1N0XzP8dQ1f7hKvBiSiNQ5enkrLzLNJYp/view?usp=drive_link',
       githubLink: 'https://github.com/muthukonar/vehiclebuilder',
     },
     {
       title: 'BUMSYST - Budget Management System',
-      image: './src/pages/BUMSYST.jpg',
+      image: './src/assets/pics/BUMSYST.jpg',
       deployedLink: 'https://muthukonar.github.io/group4-project1',
       githubLink: 'https://github.com/muthukonar/group4-project1',
     },
     {
       title: 'Employee Tracker',
-      image: './src/pages/employeetracker.jpg',
+      image: './src/assets/pics/employeetracker.jpg',
       deployedLink: 'https://drive.google.com/file/d/1JxPJKHiIcJ68ANqc7sPW2lWxgMryJfOj/view?usp=drive_link',
       githubLink: 'https://github.com/muthukonar/EmployeeTracker',
     },
     {
       title: 'README Generator',
-      image: './src/pages/READMEMAKER.jpg',
+      image: './src/assets/pics/READMEMAKER.jpg',
       deployedLink: 'https://drive.google.com/file/d/1uGMPkxLf4PXKVbEpbDOPmjLUWMXBdnZV/view?usp=sharing',
       githubLink: 'https://github.com/muthukonar/readmemaker',
     },
     {
       title: 'Prework Study Guide',
-      image: './src/pages/prework.jpg',
+      image: './src/assets/pics/prework.jpg',
       deployedLink: 'https://muthukonar.github.io/prework-study-guide/',
       githubLink: 'https://github.com/muthukonar/prework-study-guide',
     },

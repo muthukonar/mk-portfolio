@@ -7,7 +7,7 @@ const AboutMe = () => {
       <h2 className="text-center mb-4">About Me</h2>
       
       <div className="project-card">
-      <img src="./src/pages/weather.jpg" alt="Your Avatar" className="img-fluid mb-3" />
+      <img src="./src/assets/pics/weather.jpg" alt="Your Avatar" className="img-fluid mb-3" />
       <p>
     Hi! Hope you all doing well!.......
     I am a full stack developer, learning front end and backend development skills from UoFT. 
