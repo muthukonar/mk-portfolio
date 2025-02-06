@@ -23,11 +23,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="container my-5">
+    <section id="contact" className="container my-5 col-12 col-md-6 mb-4">
       <h2 className="text-center mb-4">Contact</h2>
       <form onSubmit={handleSubmit}>
         {/* Name */}
-        <div className="mb-3">
+        <div className="mb-3"  >
           <input
             type="text"
             name="name"
