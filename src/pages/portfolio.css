@@ -1,0 +1,25 @@
+.project-card {
+    border: 1px solid hsl(0, 25%, 2%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e0e3e6;
+  }
+  
+  .project-card img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .project-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  

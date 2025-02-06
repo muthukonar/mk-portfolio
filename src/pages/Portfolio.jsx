@@ -1,82 +1,61 @@
 import React from 'react';
-
+import './portfolio.css'
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Weather Dashboard',
       image: 'project1.jpg',
-      deployedLink: 'https://project1.com',
-      githubLink: ' https://github.com/muthukonar/WeatherDashboard',
+      deployedLink: 'https://google.com',
+      githubLink: 'https://github.com/muthukonar/WeatherDashboard',
     },
     {
-      title: 'Project 2',
+      title: 'Vehicle Builder',
       image: 'project2.jpg',
-      deployedLink: 'https://project2.com',
+      deployedLink: 'https://google.com',
       githubLink: 'https://github.com/muthukonar/vehiclebuilder',
     },
- 
-
     {
-      title: 'Project 3',
+      title: 'BUMSYST - Budget Management System',
       image: 'project2.jpg',
-      deployedLink: 'https://project2.com',
+      deployedLink: 'https://google.com',
       githubLink: 'https://github.com/muthukonar/group4-project1',
     },
-
     {
-      title: 'Project 4',
+      title: 'Employee Tracker',
       image: 'project2.jpg',
-      deployedLink: 'https://project2.com',
-      githubLink: 'https://github.com/muthukonar/vehiclebuilder',
+      deployedLink: 'https://google.com',
+      githubLink: 'https://github.com/muthukonar/EmployeeTracker',
     },
-
     {
-      title: 'Project 5',
+      title: 'README Generator',
       image: 'project2.jpg',
-      deployedLink: 'https://project2.com',
+      deployedLink: 'https://google.com',
       githubLink: 'https://github.com/muthukonar/readmemaker',
     },
-
-
     {
-      title: 'Project 6',
+      title: 'Prework Study Guide',
       image: 'project2.jpg',
-      deployedLink: 'https://project2.com',
+      deployedLink: 'https://google.com',
       githubLink: 'https://github.com/muthukonar/prework-study-guide',
     },
-
-
-
-   
-
-   
-
-   
-
-    
-
-   
-
-
-
-
-
-
-
-
-
   ];
 
   return (
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div className="portfolio-grid">
+    <section id="portfolio" className="container my-5">
+      <h2 className="text-center mb-4">Portfolio</h2>
+      <div className="row">
         {projects.map((project, index) => (
-          <div key={index} className="project-card">
-            <img src={project.image} alt={project.title} />
-            <h3>{project.title}</h3>
-            <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">View App</a>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">View Code</a>
+          <div key={index} className="col-12 col-md-6 mb-4">
+            <div className="project-card">
+              <img src={project.image} alt={project.title} className="img-fluid mb-3" />
+              <h3>{project.title}</h3>
+              <a href={project.deployedLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">
+                App Screenshot/Video
+              </a>
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                GitHub link
+              </a>
+            </div>
           </div>
         ))}
       </div>
