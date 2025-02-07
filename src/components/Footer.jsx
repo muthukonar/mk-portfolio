@@ -9,11 +9,11 @@ const Footer = () => {
       <p>&copy; Feb 2025 My Portfolio. All rights reserved.</p>
       <p>
         <a href="https://github.com/muthukonar" className="text-white" target="_blank" rel="noopener noreferrer">
-          <img src={githubLogo} alt="GitHub" style={{ width: '24px', marginRight: '8px' }} />
+          <img src={githubLogo} alt="GitHub" style={{ width: '70px', marginRight: '16px' }} />
           
         </a> 
                 <a href="https://linkedin.com/in/muthu-konar-052340112" className="text-white" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinLogo} alt="LinkedIn" style={{ width: '24px', marginRight: '8px' }} />
+          <img src={linkedinLogo} alt="LinkedIn" style={{ width: '30px', marginRight: '16px' }} />
          
         </a>
       </p>
