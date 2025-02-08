@@ -13,7 +13,7 @@ const Resume = () => {
         <li>React</li>
         <li>Node.js</li>
         <li>HTML, CSS</li>
-        <li>Git/GitHub</li>        
+        <li>Git/GitHub</li>
       </ul>
       <h4>Back End</h4>
       <li>Postgressql</li>
