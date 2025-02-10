@@ -34,6 +34,19 @@ Deployed link : - https://bright-nougat-4370bf.netlify.app/
 
 GitHub link :- https://github.com/muthukonar/mk-portfolio
 
+Screenshots :
+
+!["Screenshot1”](./src/assets/screenshots/SS1.png )
+!["Screenshot2”](./src/assets/screenshots/SS2.png )
+!["Screenshot3”](./src/assets/screenshots/SS3.png )
+!["Screenshot4”](./src/assets/screenshots/SS4.png )
+!["Screenshot5”](./src/assets/screenshots/SS5.png )
+!["Screenshot6”](./src/assets/screenshots/SS6.png )
+!["Screenshot7”](./src/assets/screenshots/SS7.png )
+!["Screenshot8”](./src/assets/screenshots/SS8.png )
+!["Screenshot9”](./src/assets/screenshots/SS9.png )
+!["Screenshot10”](./src/assets/screenshots/SS10.png )
+
 ## Credits
 Instructor and TA's
 
